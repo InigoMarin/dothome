@@ -5,3 +5,6 @@
 !.config/bspwm
 !.config/bspwm/**/*
 
+!.config/i3
+!.config/i3/**/*
+
