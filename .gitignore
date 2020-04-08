@@ -8,3 +8,5 @@
 !.config/i3
 !.config/i3/**/*
 
+!.config/nvim
+!.config/nvim/**/*
