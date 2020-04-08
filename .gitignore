@@ -1,6 +1,7 @@
 *
 !.gitignore
 
+/* CONFIG */
 !.config
 
 !.config/bspwm
@@ -14,3 +15,7 @@
 
 !.config/nvim
 !.config/nvim/**/*
+
+/* DWM */
+!.dwm
+!.dwm/**/*
