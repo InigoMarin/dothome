@@ -2,8 +2,12 @@
 !.gitignore
 
 !.config
+
 !.config/bspwm
 !.config/bspwm/**/*
+
+!.config/sxhkd
+!.config/sxhkd/**/*
 
 !.config/i3
 !.config/i3/**/*
