@@ -1,2 +1,7 @@
 *
 !.gitignore
+
+!.config
+!.config/bspwm
+!.config/bspwm/**/*
+
