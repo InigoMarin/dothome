@@ -23,3 +23,15 @@
 /* FONTS */
 !.fonts
 !.fonts/**/*
+
+/* BIN */
+!.local
+!.local/bin
+!.local/bin/**/*
+
+/* DOT FILES */
+!.gitconfig
+!.imwheelrc
+!.nvidia-settings-rc
+!.xinitrc
+!.Xresources
