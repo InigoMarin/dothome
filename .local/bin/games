@@ -1,0 +1,10 @@
+#!/bin/bash
+exe=~/.local/share/s1n7ax/steam/get_steam_game_id.py
+dmenu="dmenu -l 20"
+output=$( $exe | $dmenu)
+
+if [ "$output" == "Other" ]; then
+	echo $output | $exe | $dmenu | $exe
+else
+	echo $output | $exe
+fi
