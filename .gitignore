@@ -23,6 +23,7 @@
 /* FONTS */
 !.fonts
 !.fonts/**
+.fonts/.uuid
 
 /* LOCAL */
 !.local
