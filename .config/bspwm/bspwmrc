@@ -3,15 +3,9 @@
 #------------------------------------------------------------------------------#
 #                                   start up                                   #
 #------------------------------------------------------------------------------#
-source ~/workspace/dothome/init/env.sh
-source ~/workspace/dothome/init/startup.sh
-
+source ~/.local/share/s1n7ax/init/env.sh
+python ~/.local/share/s1n7ax/init/startup.py
 sxhkd &
-
-st &
-st &
-st &
-chromium &
 
 
 #------------------------------------------------------------------------------#
