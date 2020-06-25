@@ -63,7 +63,7 @@ alt + {p,b,comma,period}
 	bspc node -f @{parent,brother,first,second}
 
 # focus the next/previous node in the current desktop
-alt + {_,shift + }c
+alt + {_,shift + }a
 	bspc node -f {next,prev}.local
 
 # focus the next/previous desktop in the current monitor
