@@ -84,6 +84,9 @@ alt + {o,i}
 alt + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
+alt + {_,shift + }{q,w,e}
+	bspc {desktop -f,node -d} -f {^4,^5,^6}
+
 #
 # preselect
 #
