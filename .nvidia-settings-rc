@@ -2,7 +2,7 @@
 # /home/s1n7ax/.nvidia-settings-rc
 #
 # Configuration file for nvidia-settings - the NVIDIA X Server Settings utility
-# Generated on Sat Apr  4 23:43:07 2020
+# Generated on Thu Jun 25 11:58:12 2020
 #
 
 # ConfigProperties:
@@ -19,15 +19,15 @@ Timer = Memory_Used_(GPU_0),Yes,3000
 
 # Attributes:
 
-0/SyncToVBlank=0
+0/SyncToVBlank=1
 0/LogAniso=0
 0/FSAA=0
-0/TextureClamping=0
+0/TextureClamping=1
 0/FXAA=0
 0/AllowFlipping=0
-0/FSAAAppControlled=0
-0/LogAnisoAppControlled=0
-0/OpenGLImageSettings=3
+0/FSAAAppControlled=1
+0/LogAnisoAppControlled=1
+0/OpenGLImageSettings=1
 0/FSAAAppEnhanced=0
 0/ShowGraphicsVisualIndicator=0
 [DPY:DVI-D-0]/Dithering=0
