@@ -185,8 +185,8 @@ bar {
 #------------------------------------------------------------------------------#
 #                                  START EDIT                                  #
 #------------------------------------------------------------------------------#
-# exec ~/.local/share/s1n7ax/init/env.sh
-# python ~/.local/share/s1n7ax/init/startup.py
+exec ~/.local/share/s1n7ax/init/env.sh
+exec python ~/.local/share/s1n7ax/init/startup.py
 
 
 #------------------------------------------------------------------------------#
