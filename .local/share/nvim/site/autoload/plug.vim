@@ -1,0 +1,1 @@
+/home/s1n7ax/.local/share/vim-plug/plug.vim
