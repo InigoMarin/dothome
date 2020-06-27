@@ -33,4 +33,12 @@ fi
 
 source ~/.local/share/s1n7ax/init/env.sh
 
-exec i3
+
+while true; do
+    # Log stderror to a file 
+    dwm 2> ~/.dwm.log
+    # No error logging
+    #dwm >/dev/null 2>&1
+done
+
+# exec i3
