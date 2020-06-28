@@ -49,6 +49,7 @@
 !.local/share
 
 !.local/share/vim-plug
+!.local/share/dwm-status
 
 !.local/share/s1n7ax
 !.local/share/s1n7ax/**
