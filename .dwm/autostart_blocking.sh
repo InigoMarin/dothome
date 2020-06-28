@@ -1,5 +1,4 @@
 #!/bin/bash
+
 cd $HOME
-~/workspace/dothome/init/env.sh
-~/workspace/dothome/init/startup.sh
-~/workspace/dwm-status/dwm_status.py &
+~/.local/share/s1n7ax/init/startup.py
