@@ -4,3 +4,6 @@
 [submodule ".local/share/dwm-status"]
 	path = .local/share/dwm-status
 	url = git@github.com:s1n7ax/dwm-status.git
+[submodule ".local/share/vifm_devicons"]
+	path = .local/share/vifm_devicons
+	url = https://github.com/cirala/vifm_devicons.git

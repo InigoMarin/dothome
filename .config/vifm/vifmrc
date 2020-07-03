@@ -414,3 +414,7 @@ nnoremap <f8> :delete<cr>
 "     vifm --server-name "$VIFM_SERVER_NAME" --remote +"cd '$PWD'"
 "
 " let $VIFM_SERVER_NAME = v:servername
+
+
+source ~/.local/share/vifm_devicons/SETUP
+
