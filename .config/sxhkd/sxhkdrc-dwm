@@ -1,0 +1,13 @@
+#------------------------------------------------------------------------------#
+#                              independent hotkeys                             #
+#------------------------------------------------------------------------------#
+# make sxhkd reload its configuration files:
+alt + Escape
+	pkill -USR1 -x sxhkd
+
+XF86Audio{Raise,Lower}Volume
+    pactl set-sink-volume @DEFAULT_SINK@ {+10%,-10%} && kill -SIGUSR1 $(pgrep dwm-status)
+
+alt + shift {s,d}
+	nmcli c up {slt,dialog} && sleep 1 && kill -SIGUSR1 $(pgrep dwm-status)
+
