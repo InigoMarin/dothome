@@ -55,7 +55,8 @@
 !.local/share/dwm-status
 
 !.local/share/s1n7ax
-!.local/share/s1n7ax/**
+!.local/share/s1n7ax/*
+!.local/share/s1n7ax/*/**
 
 !.local/share/nvim
 !.local/share/nvim/site
